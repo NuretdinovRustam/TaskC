@@ -1,0 +1,16 @@
+C:\Users\nuretdinov_rf\source\repos\TaskCSharp\NumbersCount\NumbersCount\bin\Debug\net5.0\NumbersCount.exe
+C:\Users\nuretdinov_rf\source\repos\TaskCSharp\NumbersCount\NumbersCount\bin\Debug\net5.0\NumbersCount.deps.json
+C:\Users\nuretdinov_rf\source\repos\TaskCSharp\NumbersCount\NumbersCount\bin\Debug\net5.0\NumbersCount.runtimeconfig.json
+C:\Users\nuretdinov_rf\source\repos\TaskCSharp\NumbersCount\NumbersCount\bin\Debug\net5.0\NumbersCount.runtimeconfig.dev.json
+C:\Users\nuretdinov_rf\source\repos\TaskCSharp\NumbersCount\NumbersCount\bin\Debug\net5.0\NumbersCount.dll
+C:\Users\nuretdinov_rf\source\repos\TaskCSharp\NumbersCount\NumbersCount\bin\Debug\net5.0\ref\NumbersCount.dll
+C:\Users\nuretdinov_rf\source\repos\TaskCSharp\NumbersCount\NumbersCount\bin\Debug\net5.0\NumbersCount.pdb
+C:\Users\nuretdinov_rf\source\repos\TaskCSharp\NumbersCount\NumbersCount\obj\Debug\net5.0\NumbersCount.csprojAssemblyReference.cache
+C:\Users\nuretdinov_rf\source\repos\TaskCSharp\NumbersCount\NumbersCount\obj\Debug\net5.0\NumbersCount.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nuretdinov_rf\source\repos\TaskCSharp\NumbersCount\NumbersCount\obj\Debug\net5.0\NumbersCount.AssemblyInfoInputs.cache
+C:\Users\nuretdinov_rf\source\repos\TaskCSharp\NumbersCount\NumbersCount\obj\Debug\net5.0\NumbersCount.AssemblyInfo.cs
+C:\Users\nuretdinov_rf\source\repos\TaskCSharp\NumbersCount\NumbersCount\obj\Debug\net5.0\NumbersCount.csproj.CoreCompileInputs.cache
+C:\Users\nuretdinov_rf\source\repos\TaskCSharp\NumbersCount\NumbersCount\obj\Debug\net5.0\NumbersCount.dll
+C:\Users\nuretdinov_rf\source\repos\TaskCSharp\NumbersCount\NumbersCount\obj\Debug\net5.0\ref\NumbersCount.dll
+C:\Users\nuretdinov_rf\source\repos\TaskCSharp\NumbersCount\NumbersCount\obj\Debug\net5.0\NumbersCount.pdb
+C:\Users\nuretdinov_rf\source\repos\TaskCSharp\NumbersCount\NumbersCount\obj\Debug\net5.0\NumbersCount.genruntimeconfig.cache
