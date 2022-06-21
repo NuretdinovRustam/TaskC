@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nuretdinov_rf\\source\\repos\\TaskCSharp\\Palindrom\\Palindrom\\Palindrom.csproj",
+      "projectUniqueName": "C:\\Users\\nuretdinov_rf\\source\\repos\\HomeWork\\TaskC\\Palindrom\\Palindrom\\Palindrom.csproj",
       "projectName": "Palindrom",
-      "projectPath": "C:\\Users\\nuretdinov_rf\\source\\repos\\TaskCSharp\\Palindrom\\Palindrom\\Palindrom.csproj",
+      "projectPath": "C:\\Users\\nuretdinov_rf\\source\\repos\\HomeWork\\TaskC\\Palindrom\\Palindrom\\Palindrom.csproj",
       "packagesPath": "C:\\Users\\nuretdinov_rf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nuretdinov_rf\\source\\repos\\TaskCSharp\\Palindrom\\Palindrom\\obj\\",
+      "outputPath": "C:\\Users\\nuretdinov_rf\\source\\repos\\HomeWork\\TaskC\\Palindrom\\Palindrom\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

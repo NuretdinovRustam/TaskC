@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nuretdinov_rf\\source\\repos\\TaskCSharp\\Horse\\Horse.csproj": {}
+    "C:\\Users\\nuretdinov_rf\\source\\repos\\HomeWork\\TaskC\\Horse\\Horse.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nuretdinov_rf\\source\\repos\\TaskCSharp\\Horse\\Horse.csproj": {
+    "C:\\Users\\nuretdinov_rf\\source\\repos\\HomeWork\\TaskC\\Horse\\Horse.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nuretdinov_rf\\source\\repos\\TaskCSharp\\Horse\\Horse.csproj",
+        "projectUniqueName": "C:\\Users\\nuretdinov_rf\\source\\repos\\HomeWork\\TaskC\\Horse\\Horse.csproj",
         "projectName": "Horse",
-        "projectPath": "C:\\Users\\nuretdinov_rf\\source\\repos\\TaskCSharp\\Horse\\Horse.csproj",
+        "projectPath": "C:\\Users\\nuretdinov_rf\\source\\repos\\HomeWork\\TaskC\\Horse\\Horse.csproj",
         "packagesPath": "C:\\Users\\nuretdinov_rf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nuretdinov_rf\\source\\repos\\TaskCSharp\\Horse\\obj\\",
+        "outputPath": "C:\\Users\\nuretdinov_rf\\source\\repos\\HomeWork\\TaskC\\Horse\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

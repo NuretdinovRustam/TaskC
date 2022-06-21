@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nuretdinov_rf\\source\\repos\\TaskCSharp\\NumbersCount\\NumbersCount\\NumbersCount.csproj",
+      "projectUniqueName": "C:\\Users\\nuretdinov_rf\\source\\repos\\HomeWork\\TaskC\\NumbersCount\\NumbersCount\\NumbersCount.csproj",
       "projectName": "NumbersCount",
-      "projectPath": "C:\\Users\\nuretdinov_rf\\source\\repos\\TaskCSharp\\NumbersCount\\NumbersCount\\NumbersCount.csproj",
+      "projectPath": "C:\\Users\\nuretdinov_rf\\source\\repos\\HomeWork\\TaskC\\NumbersCount\\NumbersCount\\NumbersCount.csproj",
       "packagesPath": "C:\\Users\\nuretdinov_rf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nuretdinov_rf\\source\\repos\\TaskCSharp\\NumbersCount\\NumbersCount\\obj\\",
+      "outputPath": "C:\\Users\\nuretdinov_rf\\source\\repos\\HomeWork\\TaskC\\NumbersCount\\NumbersCount\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

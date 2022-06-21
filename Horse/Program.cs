@@ -43,7 +43,10 @@ namespace Horse
                 return;
             }
             //if ((Math.Abs(a - c) <= 2 && Math.Abs(b - d) <= 2) && (Math.Abs(a - c) >= 1 && Math.Abs(b - d) >= 1))
-            if ((c == a + 1 && d == b + 2 | d == b - 2) || (c == a - 1 && d == b + 2 | d == b - 2) || (c == a - 2 && d == b + 1 | d == b - 1) || (c == a + 2 && d == b + 1 | d == b - 1))
+            if ((c == a + 1 && d == b + 2 | d == b - 2) ||
+                (c == a - 1 && d == b + 2 | d == b - 2) ||
+                (c == a - 2 && d == b + 1 | d == b - 1) ||
+                (c == a + 2 && d == b + 1 | d == b - 1))
             {
                 Console.WriteLine("yes");
                 return;

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nuretdinov_rf\\source\\repos\\TaskCSharp\\Ferz\\Ferz.csproj": {}
+    "C:\\Users\\nuretdinov_rf\\source\\repos\\HomeWork\\TaskC\\Ferz\\Ferz.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nuretdinov_rf\\source\\repos\\TaskCSharp\\Ferz\\Ferz.csproj": {
+    "C:\\Users\\nuretdinov_rf\\source\\repos\\HomeWork\\TaskC\\Ferz\\Ferz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nuretdinov_rf\\source\\repos\\TaskCSharp\\Ferz\\Ferz.csproj",
+        "projectUniqueName": "C:\\Users\\nuretdinov_rf\\source\\repos\\HomeWork\\TaskC\\Ferz\\Ferz.csproj",
         "projectName": "Ferz",
-        "projectPath": "C:\\Users\\nuretdinov_rf\\source\\repos\\TaskCSharp\\Ferz\\Ferz.csproj",
+        "projectPath": "C:\\Users\\nuretdinov_rf\\source\\repos\\HomeWork\\TaskC\\Ferz\\Ferz.csproj",
         "packagesPath": "C:\\Users\\nuretdinov_rf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nuretdinov_rf\\source\\repos\\TaskCSharp\\Ferz\\obj\\",
+        "outputPath": "C:\\Users\\nuretdinov_rf\\source\\repos\\HomeWork\\TaskC\\Ferz\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
