@@ -9,7 +9,7 @@ namespace Palindrom
             //Задача №3
             string num = Console.ReadLine();
             string last = num[num.Length - 1].ToString();
-            string first = num[num.Length - (num.Length - 1)].ToString();
+            string first = num[0].ToString();
             bool bol = true;
             //uint nature;
 
