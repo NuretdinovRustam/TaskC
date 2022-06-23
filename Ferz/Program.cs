@@ -7,47 +7,46 @@ namespace Ferz
         static void Main(string[] args)
         {
             // задача №1
-            int a, b, c, d;
-            // a столбец ферзя, c столбец противника; b строка ферзя, d строка соперника.
-            Console.WriteLine("Введите координаты Ферзя от 1 до 8 , первая координата стоблец: ");
-            a = Convert.ToInt32(Console.ReadLine());
-            if (a < 1 | a > 8)
-            {
-                Console.WriteLine("Неверное число");
-                return;
-            }
+            int columnQueen, stringQueen, columnOpponent, stringOpponent;
+            Console.WriteLine("Введите координаты  Ферзя от 1 до 8 , первая координата стоблец: ");
+            columnQueen = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Вторая координата Ферзя строка: ");
-            b = Convert.ToInt32(Console.ReadLine());
-            if (b < 1 | b > 8)
-            {
-                Console.WriteLine("Неверное число");
-                return;
-            }
+            stringQueen = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите координаты соперника от 1 до 8 , первая координата стоблец: ");
-            c = Convert.ToInt32(Console.ReadLine());
-            if (c < 1 | c > 8)
-            {
-                Console.WriteLine("Неверное число");
-                return;
-            }
+            columnOpponent = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Вторая координата соперника строка: ");
-            d = Convert.ToInt32(Console.ReadLine());
-            if (d < 1 | d > 8)
+            stringOpponent = Convert.ToInt32(Console.ReadLine());
+
+            int[] Check = new[] { columnQueen, stringQueen, columnOpponent, stringOpponent };
+            bool CheckCoordinates(params int[] coordinates)
+            {
+                bool result = true;
+                foreach (var n in coordinates)
+                {
+                    if (n < 1 | n > 8)
+                    {
+                        result = false;
+                        break;
+                    }
+                }
+                return result;
+            }
+            if (CheckCoordinates(Check) == false)
             {
                 Console.WriteLine("Неверное число");
                 return;
             }
-            if (a == c && b == d)
+            if (columnQueen == columnOpponent && stringQueen == stringOpponent)
             {
                 Console.WriteLine("фигуры стоят на одинаковых координатах");
                 return;
             }
-            if (a == c | b == d)
+            if (columnQueen == columnOpponent | stringQueen == stringOpponent)
             {
                 Console.WriteLine("YES");
                 return;
             }
-            if (Math.Abs(a - c) == Math.Abs(d - b))
+            if (Math.Abs(columnQueen - columnOpponent) == Math.Abs(stringOpponent - stringQueen))
             {
                 Console.WriteLine("YES");
                 return;
