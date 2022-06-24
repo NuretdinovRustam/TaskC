@@ -13,7 +13,6 @@ namespace NumbersCount
             try
             {
                 string first = num1[0].ToString();
-                //int num2 = 1;
                 int num4 = 0;
                 if (num1.Length > 6 | first == "0" | !UInt32.TryParse(num1, out _))
                 {
@@ -22,17 +21,17 @@ namespace NumbersCount
                 }
                 for (int i = 0; i < Int32.Parse(num1); i++)
                 {
+                    Console.WriteLine("Теперь введите число: ");
                     string num5 = Console.ReadLine();
                     string last = num5[num5.Length - 1].ToString();
                     if (Int32.Parse(num5) > 2 * (Math.Pow(10, 6)))
                     {
                         Console.WriteLine("Введено некорректное значение");
                     }
-                    if (last == "0")
+                    else if (last == "0")
                     {
                         num4++;
                     }
-
                 }
                 Console.WriteLine($"Количество нулей во всех числах: {num4}");
             }

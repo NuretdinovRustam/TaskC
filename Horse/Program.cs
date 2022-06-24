@@ -42,7 +42,7 @@ namespace Horse
                 Console.WriteLine("фигуры стоят на одинаковых координатах");
                 return;
             }
-            //if ((Math.Abs(a - c) <= 2 && Math.Abs(b - d) <= 2) && (Math.Abs(a - c) >= 1 && Math.Abs(b - d) >= 1))
+            //по модулю
             if ((columnOpponent == columnHorse + 1 && stringOpponent == stringHorse + 2 | stringOpponent == stringHorse - 2) ||
                 (columnOpponent == columnHorse - 1 && stringOpponent == stringHorse + 2 | stringOpponent == stringHorse - 2) ||
                 (columnOpponent == columnHorse - 2 && stringOpponent == stringHorse + 1 | stringOpponent == stringHorse - 1) ||

@@ -7,6 +7,7 @@ namespace Palindrom
         static void Main(string[] args)
         {
             //Задача №3
+            Console.WriteLine("Введите натуральное число не превышающее 10^9");
             string num = Console.ReadLine();
             string last = num[num.Length - 1].ToString();
             string first = num[0].ToString();
@@ -15,18 +16,15 @@ namespace Palindrom
 
             if (UInt32.TryParse(num, out _))
             {
-
                 if (num.Length > 11)
                 {
-                    Console.WriteLine("Введите натуральное число не превышающее 10^9");
-                    return;
+                    Console.WriteLine("Число превышает 10^9");
                 }
-                if (last == "0" && first == "0")
+                else if (last == "0" | first == "0")
                 {
                     Console.WriteLine("Число должно быть натуральным и последние число не должно быть равным нулю");
-                    return;
                 }
-                if (!String.IsNullOrEmpty(num))
+                else if (!String.IsNullOrEmpty(num))
                 {
                     for (int i = 0; i < num.Length / 2; i++)
                     {
@@ -39,10 +37,6 @@ namespace Palindrom
                     }
                     if (bol == true)
                         Console.WriteLine("палиндромом");
-                }
-                else
-                {
-                    Console.WriteLine("Введенное число не является палиндромом");
                 }
             }
             else
